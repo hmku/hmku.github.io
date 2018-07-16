@@ -1,5 +1,5 @@
 body {
-  font-family: 'PT Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 h1,
@@ -31,8 +31,8 @@ hr.star-dark:after {
   top: -.8em;
   display: inline-block;
   padding: 0 0.25em;
-  content: '\f005';
-  font-family: 'Open Sans', sans-serif;
+  content: '\f000';
+  font-family: 'Roboto', sans-serif;
   font-size: 2em;
 }
 
@@ -46,11 +46,11 @@ hr.star-light:after {
 }
 
 hr.star-dark {
-  border-color: #2C3E50;
+  border-color: #343a40;
 }
 
 hr.star-dark:after {
-  color: #2C3E50;
+  color: #343a40;
   background-color: white;
 }
 
@@ -179,7 +179,7 @@ header.masthead h1 {
 
 header.masthead h2 {
   font-size: 1.3rem;
-  font-family: 'PT Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 @media (min-width: 992px) {
@@ -325,12 +325,12 @@ form .row:first-child .floating-label-form-group {
 .footer {
   padding-top: 5rem;
   padding-bottom: 5rem;
-  background-color: #2C3E50;
+  background-color: #343a40;
   color: #fff;
 }
 
 .copyright {
-  background-color: #1a252f;
+  background-color: #1d2124;
 }
 
 a {
@@ -350,7 +350,11 @@ a:focus, a:hover, a:active {
 }
 
 .bg-secondary {
-  background-color: #2C3E50 !important;
+  background-color: #343a40 !important;
+}
+
+.bg-gray {
+  background-color: #f8f9fa;
 }
 
 .text-primary {
@@ -358,7 +362,7 @@ a:focus, a:hover, a:active {
 }
 
 .text-secondary {
-  color: #2C3E50 !important;
+  color: #343a40 !important;
 }
 
 .btn-primary {
@@ -372,11 +376,11 @@ a:focus, a:hover, a:active {
 }
 
 .btn-secondary {
-  background-color: #2C3E50;
-  border-color: #2C3E50;
+  background-color: #343a40;
+  border-color: #343a40;
 }
 
 .btn-secondary:hover, .btn-secondary:focus, .btn-secondary:active {
-  background-color: #1a252f;
-  border-color: #1a252f;
+  background-color: #1d2124;
+  border-color: #1d2124;
 }
