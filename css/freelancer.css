@@ -42,7 +42,7 @@ hr.star-light {
 
 hr.star-light:after {
   color: #fff;
-  background-color: #A2C1FF;
+  background-color: #9bafce;
 }
 
 hr.star-dark {
@@ -117,7 +117,7 @@ section h2 {
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link:hover {
-  color: #A2C1FF;
+  color: #9bafce;
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link:active, #mainNav .navbar-nav li.nav-item a.nav-link:focus {
@@ -125,7 +125,7 @@ section h2 {
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link.active {
-  color: #A2C1FF;
+  color: #9bafce;
 }
 
 #mainNav .navbar-toggler {
@@ -152,11 +152,11 @@ section h2 {
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
     color: #fff;
-    background: #A2C1FF;
+    background: #9bafce;
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
     color: #fff;
-    background: #A2C1FF;
+    background: #9bafce;
   }
   #mainNav.navbar-shrink {
     padding-top: 0.5rem;
@@ -184,15 +184,19 @@ header.masthead h2 {
 
 @media (min-width: 992px) {
   header.masthead {
-    padding-top: calc(6rem + 106px);
-    padding-bottom: 6rem;
+    height: 50rem;
+    padding-top: 20rem;
   }
   header.masthead h1 {
-    font-size: 4.75em;
+    font-size: 5rem;
     line-height: 4rem;
+    font-weight: 400 !important;
+    font-family: 'Inconsolata', monospace;
   }
   header.masthead h2 {
-    font-size: 1.75em;
+    font-size: 1.25em;
+    font-weight: 400 !important;
+    font-family: 'Inconsolata', monospace;
   }
 }
 
@@ -212,7 +216,7 @@ header.masthead h2 {
   -moz-transition: all ease 0.5s;
   transition: all ease 0.5s;
   opacity: 0;
-  background-color: rgba(162, 193, 255, 0.9);
+  background-color: rgba(155, 175, 206, 0.9);
 }
 
 .portfolio .portfolio-item .portfolio-item-caption:hover {
@@ -315,7 +319,7 @@ header.masthead h2 {
 }
 
 .floating-label-form-group-with-focus label {
-  color: #A2C1FF;
+  color: #9bafce;
 }
 
 form .row:first-child .floating-label-form-group {
@@ -334,11 +338,11 @@ form .row:first-child .floating-label-form-group {
 }
 
 a {
-  color: #A2C1FF;
+  color: #6886b5;
 }
 
 a:focus, a:hover, a:active {
-  color: #6f9fff;
+  color: #4d6c9d;
   text-decoration: none;
 }
 
@@ -347,7 +351,7 @@ a:focus, a:hover, a:active {
 }
 
 .bg-primary {
-  background-color: #A2C1FF !important;
+  background-color: #9bafce !important;
 }
 
 .bg-secondary {
@@ -358,22 +362,30 @@ a:focus, a:hover, a:active {
   background-color: #f8f9fa;
 }
 
+.bg-masthead {
+  background-color: #343a40;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .text-primary {
-  color: #A2C1FF !important;
+  color: #9bafce !important;
 }
 
 .text-secondary {
-  color: #343a40 !important;
+  color: #212529 !important;
 }
 
 .btn-primary {
-  background-color: #89b0ff;
-  border-color: #89b0ff;
+  background-color: #8aa1c6;
+  border-color: #8aa1c6;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-  background-color: #568eff;
-  border-color: #568eff;
+  background-color: #6886b5;
+  border-color: #6886b5;
 }
 
 .btn-secondary {

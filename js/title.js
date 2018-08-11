@@ -1,6 +1,6 @@
 $(function(){
 	$(".title").typed({
-		strings: ["Hi, I'm Harrison!"],
+		strings: ["...", "> Hi, I'm Harrison!"],
 		// Optionally use an HTML element to grab strings from (must wrap each string in a <p>)
 		stringsElement: null,
 		// typing speed
@@ -21,13 +21,13 @@ $(function(){
 
 $(function(){
 	$(".subtitle").typed({
-		strings: ["B.S. Computer Science @ UCSD, Class of 2020"],
+		strings: ["...", "B.S. Computer Science @ UCSD"],
 		// Optionally use an HTML element to grab strings from (must wrap each string in a <p>)
 		stringsElement: null,
 		// typing speed
 		typeSpeed: 20,
 		// time before typing starts
-        startDelay: 2500,
+        startDelay: 4000,
 		// show cursor
 		showCursor: false,
 		// character for cursor

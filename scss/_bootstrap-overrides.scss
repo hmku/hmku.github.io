@@ -1,10 +1,10 @@
 // Bootstrap overrides for this template
 a {
-  color: $primary;
+  color: darken($primary, 15%);
   &:focus,
   &:hover,
   &:active {
-    color: darken($primary, 10%);
+    color: darken($primary, 25%);
     text-decoration: none;
   }
 }
@@ -25,12 +25,20 @@ a {
   background-color: $gray-100;
 }
 
+.bg-masthead {
+  background-color: $gray-800;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .text-primary {
   color: $primary !important;
 }
 
 .text-secondary {
-  color: $secondary !important;
+  color: $gray-900 !important;
 }
 
 .btn-primary {
