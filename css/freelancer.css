@@ -375,7 +375,11 @@ a:focus, a:hover, a:active {
 }
 
 .text-secondary {
-  color: #212529 !important;
+  color: #1d2124 !important;
+}
+
+.text-light {
+  color: #adb5bd !important;
 }
 
 .btn-primary {
@@ -396,4 +400,9 @@ a:focus, a:hover, a:active {
 .btn-secondary:hover, .btn-secondary:focus, .btn-secondary:active {
   background-color: #1d2124;
   border-color: #1d2124;
+}
+
+.list-group-item {
+  background-color: #343a40;
+  border: none;
 }
