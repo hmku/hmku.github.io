@@ -155,7 +155,17 @@
         <br><br>
         <div class="row">
           <div class="col-md-6 col-lg-6">
-            <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-1">
+            <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-ag">
+              <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
+                <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
+                  <i class="fa fa-search-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid rounded" src="img/portfolio/alpha-gomoku.jpg" alt="">
+            </a>
+          </div>
+          <div class="col-md-6 col-lg-6">
+            <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-ls">
               <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
                 <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
                   <i class="fa fa-search-plus fa-3x"></i>
@@ -164,8 +174,11 @@
               <img class="img-fluid rounded" src="img/portfolio/lyrics-search-default.png" alt="">
             </a>
           </div>
+        </div>
+        <br>
+        <div class="row">
           <div class="col-md-6 col-lg-6">
-            <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-2">
+            <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-mb">
               <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
                 <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
                   <i class="fa fa-search-plus fa-3x"></i>
@@ -174,27 +187,14 @@
               <img class="img-fluid rounded" src="img/portfolio/mood-bible.png" alt="">
             </a>
           </div>
-        </div>
-        <br>
-        <div class="row">
           <div class="col-md-6 col-lg-6">
-            <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-3">
+            <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-gtb">
               <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
                 <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
                   <i class="fa fa-search-plus fa-3x"></i>
                 </div>
               </div>
               <img class="img-fluid rounded" src="img/portfolio/googletranslate-bot.png" alt="">
-            </a>
-          </div>
-          <div class="col-md-6 col-lg-6">
-            <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-4">
-              <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
-                <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
-                  <i class="fa fa-search-plus fa-3x"></i>
-                </div>
-              </div>
-              <img class="img-fluid rounded" src="img/portfolio/24-solver.png" alt="">
             </a>
           </div>
         </div>
@@ -274,8 +274,8 @@
 
     <!-- Portfolio Modals -->
 
-    <!-- Portfolio Modal 1 -->
-    <div class="portfolio-modal mfp-hide" id="portfolio-modal-1">
+    <!-- Portfolio Modal (Lyrics Search) -->
+    <div class="portfolio-modal mfp-hide" id="portfolio-modal-ls">
       <div class="portfolio-modal-dialog bg-gray">
         <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
           <i class="fa fa-3x fa-times"></i>
@@ -308,8 +308,8 @@
       </div>
     </div>
 
-    <!-- Portfolio Modal 2 -->
-    <div class="portfolio-modal mfp-hide" id="portfolio-modal-2">
+    <!-- Portfolio Modal (Mood Bible) -->
+    <div class="portfolio-modal mfp-hide" id="portfolio-modal-mb">
       <div class="portfolio-modal-dialog bg-gray">
         <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
           <i class="fa fa-3x fa-times"></i>
@@ -336,8 +336,8 @@
       </div>
     </div>
 
-    <!-- Portfolio Modal 3 -->
-    <div class="portfolio-modal mfp-hide" id="portfolio-modal-3">
+    <!-- Portfolio Modal (GoogleTranslate-Bot) -->
+    <div class="portfolio-modal mfp-hide" id="portfolio-modal-gtb">
       <div class="portfolio-modal-dialog bg-gray">
         <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
           <i class="fa fa-3x fa-times"></i>
@@ -364,8 +364,8 @@
       </div>
     </div>
 
-    <!-- Portfolio Modal 4 -->
-    <div class="portfolio-modal mfp-hide" id="portfolio-modal-4">
+    <!-- Portfolio Modal (AlphaGomoku) -->
+    <div class="portfolio-modal mfp-hide" id="portfolio-modal-ag">
       <div class="portfolio-modal-dialog bg-gray">
         <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
           <i class="fa fa-3x fa-times"></i>
@@ -373,16 +373,21 @@
         <div class="container text-center">
           <div class="row">
             <div class="col-lg-8 mx-auto">
-              <h2 class="text-secondary text-uppercase mb-4">24 Solver</h2>
-              <img class="img-fluid mb-4 rounded" src="img/portfolio/24-solver.png" alt="">
-              <p class="mb-3">24 Solver is a command-line program that generates solutions for the classic math card game 24. 
-                It processes four integers as user input and either uses a brute-force algorithm to list out all the ways in which
-                the integers can be arithmetically combined to make the number 24, or confirms that there is no such solution.
+              <h2 class="text-secondary text-uppercase mb-4">Alpha-Gomoku</h2>
+              <img class="img-fluid mb-4 rounded" src="img/portfolio/alpha-gomoku.jpg" alt="">
+              <p class="mb-3">AlphaGomoku is a neural-net based AI that uses Monte Carlo tree search and  
+                reinforcement learning to master the game of Gomoku, or five-in-a-row. It is modeled after DeepMind's 
+                <a href="https://deepmind.com/documents/119/agz_unformatted_nature.pdf" target="_blank">AlphaGo Zero</a>.
+                This program was first conceived at Pure Storage's Hackathon12 with Charles Lien and Felix Wang.
+              </p>
+              <p class="mb-3">
+                So far, we've managed to train a beginner version of AlphaGomoku on ~300,000 self-played games, but our progress 
+                has been hindered by hardware limitations. We hope to continue refining and improving our model as time goes on.
               </p>
               <p class="mb-5 font-italic">
-                Languages/Tools: C#, Visual Studio
+                Languages/Tools: Python, PyTorch
               </p>
-              <a class="btn btn-primary btn-lg rounded-pill" target="_blank" href="https://github.com/hmku/24-solver">
+              <a class="btn btn-primary btn-lg rounded-pill" target="_blank" href="https://github.com/hmku/alpha-gomoku">
                 <i class="fa fa-github"></i>
                 View on GitHub</a>
             </div>
