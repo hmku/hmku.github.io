@@ -338,11 +338,11 @@ form .row:first-child .floating-label-form-group {
 }
 
 a {
-  color: #6886b5;
+  color: #7994bd;
 }
 
 a:focus, a:hover, a:active {
-  color: #4d6c9d;
+  color: #5778ac;
   text-decoration: none;
 }
 
