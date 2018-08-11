@@ -4,7 +4,7 @@ $(function(){
 		// Optionally use an HTML element to grab strings from (must wrap each string in a <p>)
 		stringsElement: null,
 		// typing speed
-		typeSpeed: 70,
+		typeSpeed: 50,
 		// time before typing starts
         startDelay: 150,
 		// show cursor
@@ -27,7 +27,7 @@ $(function(){
 		// typing speed
 		typeSpeed: 20,
 		// time before typing starts
-        startDelay: 4000,
+        startDelay: 3500,
 		// show cursor
 		showCursor: false,
 		// character for cursor
