@@ -21,7 +21,7 @@ $(function(){
 
 $(function(){
 	$(".subtitle").typed({
-		strings: ["...", "B.S. Computer Science @ UCSD"],
+		strings: ["...", "B.S. Computer Science & Statistics @ UCSD"],
 		// Optionally use an HTML element to grab strings from (must wrap each string in a <p>)
 		stringsElement: null,
 		// typing speed
